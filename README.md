@@ -29,6 +29,7 @@ Provide detailed reports on detected vulnerabilities.
 `python redstrike.py`
 
 
+
 ```
 ┌──(root㉿kali)-[/home/kali/Desktop/CVE_HUNTER-main]
 └─# python redstrike.py
@@ -61,6 +62,27 @@ Select the specific CPE version and it will show you the vulnerabilities in it.
 
 
 select 2 and input IP 
+
+
+
+
+
+
+
+
+![Image](https://github.com/user-attachments/assets/9f429a93-4511-4ae4-b366-36e44d4c9935)
+
+
+
+
+
+
+
+
+
+
+
+
 
 ```
 ┌──(myvenv1)─(kali㉿kali)-[~/Desktop/myproject]
