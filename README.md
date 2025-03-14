@@ -61,6 +61,10 @@ Select the specific CPE version and it will show you the vulnerabilities in it.
 
 
 
+![Image](https://github.com/user-attachments/assets/9a52f862-1a74-48c6-8798-cb4927bfdc83)
+
+
+
 select 2 and input IP 
 
 
