@@ -60,12 +60,13 @@ Select the specific CPE version and it will show you the vulnerabilities in it.
 `python redstrike.py`
 
 
+select 2 and input IP 
+
 
 ![Image](https://github.com/user-attachments/assets/9a52f862-1a74-48c6-8798-cb4927bfdc83)
 
+![Image](https://github.com/user-attachments/assets/6f2ec9a1-f877-45db-8565-ae36fec6676c)
 
-
-select 2 and input IP 
 
 
 
