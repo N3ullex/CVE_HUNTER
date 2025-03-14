@@ -9,8 +9,11 @@ Provide detailed reports on detected vulnerabilities.
 
 # Installation
 `git clone https://github.com/RedStrike0/CVE_HUNTER.git`                                                                                                                                                                                                    
-``
-`cd CVE_HUNTER`                                                                                                                                                                                                                                      ``
+
+
+`cd CVE_HUNTER`  
+
+
 
 `pip install -r requirements.txt`
 
