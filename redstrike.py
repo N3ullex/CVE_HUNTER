@@ -11,14 +11,14 @@ def display1_vulnrabilities(cpes):
         
     try:
         print ("===============================================================")
-        choice = int(input("\nSelect Number To Scan (Or Select 0 to Exit): "))
+        choice = int(input(f"{Fore.Yellow}\nSelect Number To Scan (Or Select 0 to Exit): {Style.RESET_ALL}"))
         if choice == 0:
             return False , None
         if 1 <= choice <= len(cpes):
             selected_cpe =  cpes[choice - 1].cpeName
-            print("==========================================================================================================")
-            print (f"[+] Scanning   :  [{selected_cpe}]")
-            print("==========================================================================================================")
+            print("============================================================")
+            print (f"{selected_cpe}")
+            print("============================================================")
     except (ValueError, IndexError):
         print(" Command Error !")
         return display1_vulnrabilities(cpes)
@@ -26,7 +26,7 @@ def display1_vulnrabilities(cpes):
         
     cves = search_cve(selected_cpe)
     if not cves:
-        print("[-] Not Found Vulnrability.")
+        print(f"{Fore.RED}[-] Not Found Vulnrability.{Style.RESET_ALL}")
         return 
    
     
@@ -43,9 +43,9 @@ def cve_run(cpes):
             return False , None
         if 1 <= choice <= len(cpes):
             selected_cpe =  cpes[choice - 1]
-            print("================================================================================================")
-            print (f"[+] Scanning   :  [{selected_cpe}]")
-            print("================================================================================================")
+            print("==================================================================")
+            print (f"{selected_cpe}")
+            print("==================================================================")
     except (ValueError, IndexError):
         print(" Command Error !")
         return cve_run(cpes)
@@ -107,10 +107,10 @@ def main():
              print("===============================================================")
              print (cpes)
              print("===============================================================")
-             print("Please Wait...")
+             print("Please Wait...").strip()
              if not cpes:
                  print(f"{Fore.RED}Sorry Not Found CPEs{Style.RESET_ALL}")
-                 choice1 = input("If you want to check the service versions, type back and choose number 1. ").strip()
+                 choice1 = input("type back and choose number one to check the service versions: " ).strip()
                  if choice1 == 'back':
                     return main()
                  else:
