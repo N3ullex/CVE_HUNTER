@@ -62,10 +62,72 @@ Select the specific CPE version and it will show you the vulnerabilities in it.
 
 select 2 and input IP 
 
+```
+┌──(myvenv1)─(kali㉿kali)-[~/Desktop/myproject]
+└─$ python redstrike.py           
 
-![Image](https://github.com/user-attachments/assets/9a52f862-1a74-48c6-8798-cb4927bfdc83)
+              __ _     _ ___   _  _ _   ___  _  _____ ___ __
+             / __\ \ / /| __| | || | | | | \| ||_   _| __| _ \  
+            | (__ \ V / | _|  | __ | |_| | .` |  | | | _||   /  
+             \___| \_/  |___| |_||_|\___/|_|\_|  |_| |___|_|_\        
+                                           
+                     [+] Developed by RedStrike0                      
 
-![Image](https://github.com/user-attachments/assets/6f2ec9a1-f877-45db-8565-ae36fec6676c)
+1. Search Vulnrabiltice                  (example scan device if you enter os and version)                                                                                
+2. Search Vulnrabilitice For IP          (example scan device if you enter IP)       
+                                                                                     
+Enter your Choice: 2                                                                 
+                                                                                     
+Enter IP: 192.168.1.13                                                               
+===============================================================                      
+[+] Scanning : 192.168.1.13                                                          
+===============================================================                      
+                                                                                     
+Detected OS candidates for 192.168.1.13:                                             
+OS: Microsoft Windows 10 1709 - 1909 - Accuracy: 100%
+
+Cleaned OS Name: microsoft windows 10 1709
+
+Most likely OS: microsoft windows 10 1709 - 1909 with 100% accuracy
+Port: 135 | State: open | Product: Microsoft Windows RPC | Version: 
+Port: 139 | State: open | Product: Microsoft Windows netbios-ssn | Version: 
+Port: 445 | State: open | Product:  | Version: 
+Port: 902 | State: open | Product: VMware Authentication Daemon | Version: 1.10
+Port: 912 | State: open | Product: VMware Authentication Daemon | Version: 1.0
+Port: 3389 | State: open | Product: Microsoft Terminal Services | Version: 
+
+Service version distribution:
+Product: VMware Authentication Daemon, Version: 1.10 - 1 occurrences (50.00%)
+Product: VMware Authentication Daemon, Version: 1.0 - 1 occurrences (50.00%)
+
+Most frequent service version: VMware Authentication Daemon 1.10 with 50.00% occurrences                                                                                  
+
+Available CPEs found:
+[1] cpe:2.3:o:microsoft:windows_10:1709:*:*:*:*:*:x64:*
+[2] cpe:2.3:o:microsoft:windows_10:1709:*:*:*:*:*:*:*
+[3] cpe:2.3:o:microsoft:windows_10:1709:*:*:*:*:*:arm64:*
+[4] cpe:2.3:o:microsoft:windows_10:1709:*:*:*:*:*:x86:*
+[5] cpe:2.3:o:microsoft:windows_10_1709:10.0.16299.2166:*:*:*:*:*:arm64:*
+[6] cpe:2.3:o:microsoft:windows_10_1709:10.0.16299.2107:*:*:*:*:*:arm64:*
+[7] cpe:2.3:o:microsoft:windows_10_1709:10.0.16299.2045:*:*:*:*:*:arm64:*
+[8] cpe:2.3:o:microsoft:windows_10_1709:10.0.16299.1992:*:*:*:*:*:arm64:*
+[9] cpe:2.3:o:microsoft:windows_10_1709:10.0.16299.1937:*:*:*:*:*:arm64:*
+[10] cpe:2.3:o:microsoft:windows_10_1709:10.0.16299.1932:*:*:*:*:*:arm64:*
+===============================================================
+Select a CPE number from the list: 227
+===============================================================
+cpe:2.3:o:microsoft:windows_10_1709:-:*:*:*:*:*:*:*
+===============================================================
+Please Wait...
+
+CVE ID: CVE-2018-0824
+Descriptions: A remote code execution vulnerability exists in "Microsoft COM for Windows" when it fails to properly handle serialized objects, aka "Microsoft COM for Windows Remote Code Execution Vulnerability." This affects Windows 7, Windows Server 2012 R2, Windows RT 8.1, Windows Server 2008, Windows Server 2012, Windows 8.1, Windows Server 2016, Windows Server 2008 R2, Windows 10, Windows 10 Servers.
+Severity: HIGH
+CVSS_ScoreV40: None
+CVSS_ScoreV31: 8.8
+CVSS_ScoreV30: None
+===============================================================
+```
 
 
 
