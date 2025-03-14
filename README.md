@@ -13,7 +13,7 @@ cd CVE_HUNTER.
 pip install -r requirements.txt.
 
 # Usage
-python redstrike.py.
+python redstrike.py. 
 select 1 and input OS and Version
 Select the specific CPE version and it will show you the vulnerabilities in it.
 
