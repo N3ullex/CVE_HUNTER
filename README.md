@@ -8,9 +8,9 @@ Scan the operating system and version via an IP address.
 Provide detailed reports on detected vulnerabilities.
 
 # Installation
-git clone https://github.com/RedStrike0/CVE_HUNTER.git.
-cd CVE_HUNTER.
-pip install -r requirements.txt.
+`git clone https://github.com/RedStrike0/CVE_HUNTER.git`                                                                                                                                                                                                    
+`cd CVE_HUNTER`                                                                                                                                                                                                                                                     
+`pip install -r requirements.txt`
 
 # Usage
 `python redstrike.py`
