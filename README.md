@@ -17,6 +17,10 @@ Provide detailed reports on detected vulnerabilities.
 
 `pip install -r requirements.txt`
 
+[If you encounter an error use:]
+
+`python -m pip install -r requiments.txt --break-system-packages`
+
                                                                                           
 
 
