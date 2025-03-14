@@ -24,6 +24,8 @@ Provide detailed reports on detected vulnerabilities.
 # Usage
 `python redstrike.py`
 
+
+```
 ┌──(root㉿kali)-[/home/kali/Desktop/CVE_HUNTER-main]
 └─# python redstrike.py
 
@@ -37,12 +39,15 @@ Provide detailed reports on detected vulnerabilities.
 1. Search Vulnrabiltice                  (example scan device if you enter os and version)
 2. Search Vulnrabilitice For IP          (example scan device if you enter IP)                           
                                                                                                          
-Enter your Choice: 2                                                                                     
-                                                                                                         
-Enter IP: 192.168.1.xx                                                                                
-
-select 1 and input OS and Version
-
+Enter your Choice: 1                                                                 
+===============================================================                      
+Enter name of the OS (example: Microsoft Windows, Linux): windows                    
+Enter Version (example: 10 , 2.4.3): 10                                              
+                                                           
+===============================================================                      
+Searching CPEs...                                                                    
+===============================================================     
+```
 
 
 Select the specific CPE version and it will show you the vulnerabilities in it.
