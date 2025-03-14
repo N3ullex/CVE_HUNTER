@@ -71,3 +71,7 @@ select 2 and input IP
 
 
 It will show you the ports, their versions, the system and its version, then choose the CPE you want and it will show you the vulnerabilities in it.'''
+
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
