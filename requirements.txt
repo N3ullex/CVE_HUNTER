@@ -2,4 +2,3 @@ colorama
 python-nmap
 nvdlib
 rich
-re
