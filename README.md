@@ -74,11 +74,6 @@ select 2 and input IP
 
 
 
-![Image](https://github.com/user-attachments/assets/9f429a93-4511-4ae4-b366-36e44d4c9935)
-
-
-
-
 
 
 
