@@ -7,32 +7,34 @@
 CVE Hunter is a tool designed to detect security vulnerabilities by either inputting the software version or scanning the operating system and version via an IP address, providing a list of potential vulnerabilities.
 
 # Key Features
-Detect vulnerabilities based on the input software version.
-Scan the operating system and version via an IP address.
-Provide detailed reports on detected vulnerabilities.
+- 🔍 **Version-Based Detection:** Detect vulnerabilities based on the input software version.
+- 🌐 **IP-Based OS Scan:** Scan operating systems and versions via an IP address.
+- 📄 **Detailed Reporting:** Generate comprehensive reports on detected vulnerabilities.
+- ⚡ **Fast & Efficient:** Optimized for quick scanning without overloading your network.
 
 # Installation
-`git clone https://github.com/N3ullex/Vulnex.git`                                                                                                                                                                                                    
 
+1. Clone the repository:
+```
+git clone https://github.com/N3ullex/Vulnex.git
 
-`cd Vulnex`  
+                                                                          
+cd Vulnex
 
-
-
-`pip install -r requirements.txt`
+pip install -r requirements.txt
 
 [If you encounter an error use:]
 
 `python -m pip install -r requiments.txt --break-system-packages`
 
-                                                                                          
-
-
+```
 
 # Usage
+
 `python redstrike.py`
 
-
+```
+```
 
 ```
 ┌──(root㉿kali)-[/home/kali/Desktop/CVE_HUNTER-main]
