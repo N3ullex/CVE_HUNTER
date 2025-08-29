@@ -8,13 +8,13 @@ CVE Hunter (Vulnex) is a cutting-edge tool designed to identify and report secur
 By analyzing software versions or scanning operating systems through IP addresses, Vulnex provides detailed insights 
 to help secure your infrastructure against potential threats.
 
-# Key Features
+## 🌟 Key Features
 - 🔍 **Version-Based Detection:** Detect vulnerabilities based on the input software version.
 - 🌐 **IP-Based OS Scan:** Scan operating systems and versions via an IP address.
 - 📄 **Detailed Reporting:** Generate comprehensive reports on detected vulnerabilities.
 - ⚡ **Fast & Efficient:** Optimized for quick scanning without overloading your network.
 
-# Installation
+# 💯 Installation
 
 1. Clone the repository:
 ```
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 ```
 
-# Usage
+# 👩‍💻 Usage
 
 `python redstrike.py`
 
