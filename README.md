@@ -4,7 +4,9 @@
 
 ---
 
-CVE Hunter is a tool designed to detect security vulnerabilities by either inputting the software version or scanning the operating system and version via an IP address, providing a list of potential vulnerabilities.
+CVE Hunter (Vulnex) is a cutting-edge tool designed to identify and report security vulnerabilities. 
+By analyzing software versions or scanning operating systems through IP addresses, Vulnex provides detailed insights 
+to help secure your infrastructure against potential threats.
 
 # Key Features
 - 🔍 **Version-Based Detection:** Detect vulnerabilities based on the input software version.
