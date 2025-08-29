@@ -1,8 +1,5 @@
-<h1 align="center" style="color:red; font-family:Arial, sans-serif; text-shadow: 1px 1px #000;">Vulnex</h1>
-
----
 <div align="center">
-<img src="cve.png" alt="CVE Hunter" width="300"/>
+  <img src="cve.png" alt="CVE Hunter" width="250"/>
 </div>
 
 ---
