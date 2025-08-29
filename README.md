@@ -1,8 +1,11 @@
-#Vulnex
+<h1 align="center" style="color:red; font-family:Arial, sans-serif; text-shadow: 1px 1px #000;">Vulnex</h1>
 
+---
 <div align="center">
 <img src="cve.png" alt="CVE Hunter" width="300"/>
 </div>
+
+---
 
 CVE Hunter is a tool designed to detect security vulnerabilities by either inputting the software version or scanning the operating system and version via an IP address, providing a list of potential vulnerabilities.
 
@@ -12,10 +15,10 @@ Scan the operating system and version via an IP address.
 Provide detailed reports on detected vulnerabilities.
 
 # Installation
-`git clone https://github.com/RedStrike0/CVE_HUNTER.git`                                                                                                                                                                                                    
+`git clone https://github.com/N3ullex/Vulnex.git`                                                                                                                                                                                                    
 
 
-`cd CVE_HUNTER`  
+`cd Vulnex`  
 
 
 
